@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>www.http://incrementalife.com/categories/index.html</loc>
+    <loc>www.http://incrementalife.com/2019/01/13/1/</loc>
     
-    <lastmod>2019-01-09T16:34:10.778Z</lastmod>
+    <lastmod>2019-01-13T15:29:45.972Z</lastmod>
     
   </url>
   
   <url>
     <loc>www.http://incrementalife.com/tags/index.html</loc>
     
-    <lastmod>2019-01-09T16:33:29.717Z</lastmod>
+    <lastmod>2019-01-13T14:44:29.413Z</lastmod>
     
   </url>
   
   <url>
     <loc>www.http://incrementalife.com/2019/01/12/hello-world/</loc>
     
-    <lastmod>2019-01-09T16:27:13.729Z</lastmod>
+    <lastmod>2019-01-13T14:00:05.478Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>www.http://incrementalife.com/categories/index.html</loc>
+    
+    <lastmod>2019-01-09T16:34:10.778Z</lastmod>
     
   </url>
   

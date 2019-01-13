@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[test_hexo]]></title>
+    <url>%2F2019%2F01%2F13%2F1%2F</url>
+    <content type="text"><![CDATA[基于你自己博客的功能需求，以及自己对页面布局和文章布局的理解（审美观），将上面这些自己需要的加到自己的文章模版文件中即可，最后贴出我的文章模版文件 第一级表达题Markdown 简介Markdown 的目标是实现「易读易写」。😆 不过最需要强调的便是它的可读性。一份使用 Markdown 格式撰写的文件应该可以直接以纯文字发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext不过最需要强调的便是它的可读性。一份使用 Markdown 格式撰写的文件应该可以直接以纯文字发布，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 Setext、atx、Textile、reStructuredText、Grutatext 和 EtText，然而最大灵感来源其实是纯文字的电子邮件格式。 第二级表达题用 Hexo 写文章是直接用 Markdown 写的，而不是像 WordPress 有一个类似 Word 一样的文字编辑器，所以第一次用会感觉有点难，但你熟练之后，就会觉得文字编辑器都是辣鸡 「文章的描述」是较短的描述性文字，建议主要还是用description，毕竟 title（标题）、description（描述）和 excerpt（摘要）都是为了将文章内容简要概括，让读者快速了解文章内容，所以更简要的description优先使用（好像诡辩new_moon_with_face），除非你要加 emoji 或者其它样式～ 第三级表达题12345678int main()&#123; printf("hello world\r\n");&#125;int swap(int a ,int b)&#123; print("swap");&#125;]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>你好</tag>
+        <tag>hexo</tag>
+        <tag>bolg</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F01%2F12%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
