@@ -8,7 +8,7 @@ subtitle: 不忘初心，走在不断进化的路上
 description: "watcher个人站，主要涉及嵌入式、机器人技术、学习技巧、人工智能等方面"
 keywords:
 author: Watcher
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -44,7 +44,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -78,7 +78,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ##theme: landscape
-theme: next
+theme: next-reloaded
 
 #自动生成sitemap
 Plugins: hexo-generator-sitemap
@@ -99,7 +99,14 @@ search:
   field: post
   format: html
   limit: 10000
-  
+
+# 字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
