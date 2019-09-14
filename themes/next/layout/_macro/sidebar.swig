@@ -74,27 +74,12 @@
               {% set tagsPageQuery = site.pages.find({type: 'tags'}, {lean: true}) %}
               {% set hasTagsPage = tagsPageQuery.length > 0 %}
               <div class="site-state-item site-state-tags">
-                <a href="{{ url_for(theme.menu.tags) }}">
-                <span class="site-state-item-count">{{ site.tags.length }}</span>
-                <span class="site-state-item-name">{{ __('state.tags') }}</span>
-                </a>
-               </div>
+                {% if hasTagsPage %}<a href="{{ url_for(tagsPageQuery[0].path) }}">{% endif %}
+                  <span class="site-state-item-count">{{ site.tags.length }}</span>
+                  <span class="site-state-item-name">{{ __('state.tags') }}</span>
+                {% if hasTagsPage %}</a>{% endif %}
+              </div>
             {% endif %}
-
-            <br>
-            <br>
-            <div class="site-state-item site-state-posts" style="border-left:none;">
-                <span class="site-state-item-count" id="busuanzi_value_site_pv"></span>
-                <span class="site-state-item-name">浏览量</span>
-            </div>
-            <div class="site-state-item site-state-posts">
-                <span class="site-state-item-count" id="busuanzi_value_site_uv"></span>
-                <span class="site-state-item-name">访客量</span>
-            </div>
-            <div class="site-state-item site-state-posts">
-                <span class="site-state-item-count">{{totalcount(site)}}</span>
-                <span class="site-state-item-name">总字数</span>
-            </div>
 
           </nav>
 
