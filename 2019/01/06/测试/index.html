@@ -153,18 +153,18 @@
 
 
 
-  <meta name="description" content="Markdown指南Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南[^1]。">
+  <meta name="description" content="Markdown指南Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南1。">
 <meta name="keywords" content="测试">
 <meta property="og:type" content="article">
 <meta property="og:title" content="blog测试">
 <meta property="og:url" content="www.http://incrementalife.com/2019/01/06/测试/index.html">
 <meta property="og:site_name" content="增量人生">
-<meta property="og:description" content="Markdown指南Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南[^1]。">
+<meta property="og:description" content="Markdown指南Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南1。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-09T16:21:12.278Z">
+<meta property="og:updated_time" content="2019-09-14T14:19:30.932Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="blog测试">
-<meta name="twitter:description" content="Markdown指南Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南[^1]。">
+<meta name="twitter:description" content="Markdown指南Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南1。">
 
 
 
@@ -576,7 +576,7 @@
       
 
       
-        <h1 id="Markdown指南"><a href="#Markdown指南" class="headerlink" title="Markdown指南"></a>Markdown指南</h1><p>Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南[^1]。<br><a id="more"></a></p>
+        <h1 id="Markdown指南"><a href="#Markdown指南" class="headerlink" title="Markdown指南"></a>Markdown指南</h1><p>Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南<sup><a href="#fn_1" id="reffn_1">1</a></sup>。<br><a id="more"></a></p>
 <h2 id="什么是Markdown？"><a href="#什么是Markdown？" class="headerlink" title="什么是Markdown？"></a>什么是Markdown？</h2><p>Markdown是一种通过少量简单的标记字符来格式化文本的方法。您可以用纯文本来书写文档，然后在阅读时呈现一个美观的排版。</p>
 <p>其实并没有一个标准的Markdown语法，很多编辑器都会添加自己的扩展语法。不同于此，为了兼容性，VNote仅仅支持那些被广泛使用的基本语法。</p>
 <h2 id="如何上手Markdown？"><a href="#如何上手Markdown？" class="headerlink" title="如何上手Markdown？"></a>如何上手Markdown？</h2><p>如果您是刚接触Markdown，那么比较好的一个方法是逐个学习Markdown语法。刚开始，懂得标题和强调语法就能够写出基本的文档；然后，每天可以学习一个新的语法并不断练习。</p>
@@ -641,19 +641,20 @@
 <h3 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h3><blockquote>
 <p>需要在<code>Markdown</code>菜单中启用MathJax，并重启VNote。</p>
 </blockquote>
-<p>VNote通过 <a href="https://www.mathjax.org/" target="_blank" rel="noopener">MathJax</a> 来支持数学公式。默认的<strong>块公式</strong>的分隔符是<code>$$...$$</code>，<strong>行内公式</strong>的分隔符是<code>$...$</code>。</p>
+<p>VNote通过 <a href="https://www.mathjax.org/" target="_blank" rel="noopener">MathJax</a> 来支持数学公式。默认的<strong>块公式</strong>的分隔符是<script type="math/tex">$...$$$，**行内公式**的分隔符是</script>…$$。</p>
 <ul>
 <li>行内公式不能跨多行；</li>
-<li>形如<code>3$abc$</code>/<code>$abc$4</code>/<code>$ abc$</code>和<code>$abc $</code>的不会被解析为公式；</li>
+<li>形如<code>3$abc$</code>/<script type="math/tex">abc$4`/`$ abc</script>和<script type="math/tex">abc</script>的不会被解析为公式；</li>
 <li>使用<code>\</code>转义<code>$</code>；</li>
-<li>开始的<code>$$</code>之前以及结束的<code>$$</code>之后都只允许出现空格字符；</li>
+<li>开始的$$$$之前以及结束的$$$$之后都只允许出现空格字符；</li>
 </ul>
 <p>VNote也可以使用标明语言<code>mathjax</code>的代码块来实现块公式。</p>
-<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">J(\theta) = \frac 1 2 \sum_&#123;i=1&#125;^m (h_\theta(x^&#123;(i)&#125;)-y^&#123;(i)&#125;)^2</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
-</code></pre><p>块公式支持公式序号：</p>
+<script type="math/tex; mode=display">\begin{equation}
+e=mc^2
+\end{equation}\label{eq1}</script><p>块公式支持公式序号：</p>
 <pre><code>$$vnote x markdown = awesome$$ (1.2.1)
 </code></pre><h3 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h3><figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Here is a <span class="code">`inline code`</span>.</span><br></pre></td></tr></table></figure>
-<p>如果想输入一个 <code>`</code>，需要使用两个 <code>`</code> 来括住它，例如 <figure class="highlight plain"><figcaption><span>` `` ```。 要输入两个 `` ` ``，则需要使用三个 `` ` ``。</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 删除线</span><br><span class="line">```md</span><br><span class="line">Here is a ~~text~~ with strikethrough.</span><br></pre></td></tr></table></figure></p>
+<p>如果想输入一个 <code>` </code>，需要使用两个 <code>` </code> 来括住它，例如 <figure class="highlight plain"><figcaption><span>` `` ```。 要输入两个 `` ` ``，则需要使用三个 `` ` ``。</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 删除线</span><br><span class="line">```md</span><br><span class="line">Here is a ~~text~~ with strikethrough.</span><br></pre></td></tr></table></figure></p>
 <p><strong>注意</strong>：</p>
 <ul>
 <li>VNote提供快捷键<code>Ctrl+D</code>来插入带有删除线的文本；</li>
@@ -671,7 +672,9 @@
 <h3 id="换行和段落"><a href="#换行和段落" class="headerlink" title="换行和段落"></a>换行和段落</h3><p>如果需要换行，您应该在当前行末尾添加两个空格，然后换行。VNote提供快捷键<code>Shift+Enter</code>来辅助用户输入两个空格并换行。</p>
 <p>如果需要一个新的段落，您应该先插入一个空行然后才输入新的段落的文本。</p>
 <p>一般来说，您应该在一个块元素（例如代码块、列表和块引用）后面插入一个空行来显式结束该元素。</p>
-<p>[^1]: 该指南参考了 <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">Mastering Markdown</a>.</p>
+<blockquote id="fn_1">
+<sup>1</sup>. 该指南参考了 <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="noopener">Mastering Markdown</a>.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a>
+</blockquote>
 
       
     </div>
