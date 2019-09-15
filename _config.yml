@@ -113,5 +113,5 @@ deploy:
   type: git
   repository: 
     github: https://github.com/watcherone123/watcherone123.github.io
-    coding: https://git.dev.tencent.com/watcherone123/watcherone123.git
+    #coding: https://git.dev.tencent.com/watcherone123/watcherone123.git
   branch: master
